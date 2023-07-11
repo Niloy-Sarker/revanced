@@ -12,7 +12,7 @@ build-mode = "both"
 version = "auto"
 included-patches = "Client spoof Disable Shorts on startup Disable auto captions Disable fullscreen panels Disable player popup panels Disable zoom haptics Hide ads Hide breaking news shelf Hide endscreen cards Hide floating microphone button Hide info cards Hide layout components Hide load more button Hide player overlay Hide watermark Minimized playback Navigation buttons Old video quality menu Open links externally Remember video quality Remove player controls background Return YouTube Dislike Seekbar tapping SponsorBlock Swipe controls Vanced MicroG support Video ads"
 exclusive-patches = true
-
+module-prop-name = "Youtube Revanced"
 [YouTube-Extended]
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
@@ -20,7 +20,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
+module-prop-name = "Youtube Revanced"
 [Music]
 enabled = false
 build-mode = "both"
