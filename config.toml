@@ -7,8 +7,7 @@ excluded-patches = "custom-branding premium-heading"
 
 
 [YouTube-Extended Advanced] 
-enabled = false
-app-name = "YouTube"
+app-name = "YouTube X"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "YT-Advanced/revanced-cli"
