@@ -5,28 +5,13 @@ build-mode = "both"
 included-patches = "remove-player-controls-background"
 excluded-patches = "custom-branding premium-heading"
 
-[YT Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
-build-mode = "both"
 
-[Music-Extended] # unmaintained
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
-
-[YouTube-Extended] # unmaintained
+[YouTube-Extended Advanced] 
 enabled = false
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "YT-Advanced/revanced-cli"
+rv-brand = "ReVanced Extended X"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
