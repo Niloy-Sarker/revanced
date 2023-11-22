@@ -6,8 +6,25 @@ app-name = "Youtube"
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Remove player controls background'"
-excluded-patches = "'External downloads'"
-module-prop-name = "YT-Revanced-Magisk"
+
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
+[Music-Extended]
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "both"
 
 [Music]
 build-mode = "both"
@@ -16,6 +33,7 @@ apkmirror-arch = "both"
 
 [Lightroom]
 app-name = "Lightroom"
+rv-brand = "Lightroom"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 apkmirror-arch = "arm64-v8a"
 
