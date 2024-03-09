@@ -1,8 +1,8 @@
 enable-magisk-update = true
 
 [YouTube]
-apkmirror-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 included-patches = "'Remove player controls background'"
-excluded-patches = "'Tablet mini player' 'Premium heading' 'Enable tablet layout'  'External downloads' 'Enable debugging' 'Announcements'"
+excluded-patches = "'Announcements' 'GmsCore support' 'Enable debugging' 'External downloads' 'Copy video URL' 'Enable tablet layout' 'Tablet mini player' 'Hide player buttons'"
+
