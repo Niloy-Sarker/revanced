@@ -4,5 +4,5 @@ enable-magisk-update = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 included-patches = "'Remove player controls background'"
-excluded-patches = "'Announcements' 'GmsCore support' 'Enable debugging' 'External downloads' 'Copy video URL' 'Enable tablet layout' 'Tablet mini player' 'Hide player buttons'"
+excluded-patches = "'Announcements' 'Enable debugging' 'External downloads' 'Copy video URL' 'Enable tablet layout' 'Tablet mini player' 'Hide player buttons'"
 
