@@ -8,11 +8,13 @@ excluded-patches = "'Announcements' 'Enable debugging' 'External downloads' 'Cop
 
 [Lightroom]
 enabled = true
-version = "Letest"
-uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 excluded-patches = "'Disable mandatory login'"
+arch = "arm64-v8a"
 
 [Photos]
 enabled = true
-version = "Letest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+included-patches = "'Spoof features' 'GmsCore support'"
+arch = "both"
