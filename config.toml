@@ -2,6 +2,7 @@ enable-magisk-update = true
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+version = "latest" # 'auto', 'latest'
 build-mode = "module"
 included-patches = "'Remove player controls background'"
 excluded-patches = "'Announcements' 'Enable debugging' 'External downloads' 'Copy video URL' 'Enable tablet layout' 'Tablet mini player' 'Hide player buttons'"
