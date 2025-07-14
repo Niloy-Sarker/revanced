@@ -1,6 +1,6 @@
 {
-  "version": "v20.13.41 (patches: 5.31.1)",
-  "versionCode": 105,
-  "zipUrl": "https://github.com/Niloy-Sarker/revanced/releases/download/105/youtube-revanced-magisk-v20.13.41-all.zip",
+  "version": "v20.13.41 (patches: 5.31.2)",
+  "versionCode": 106,
+  "zipUrl": "https://github.com/Niloy-Sarker/revanced/releases/download/106/youtube-revanced-magisk-v20.13.41-all.zip",
   "changelog": "https://raw.githubusercontent.com/Niloy-Sarker/revanced/update/build.md"
 }
